@@ -1,0 +1,21 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+.star {
+    cursor: pointer;
+    color: #d1d5db; /* gray-400 */
+    transition: color 0.2s;
+}
+
+.star.selected, .star:hover {
+    color: #f59e0b; /* amber-500 */
+}
